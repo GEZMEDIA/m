@@ -496,11 +496,14 @@
     left: 5px;
     border-left: 3px solid var(--light-blue);
     height: auto;
-    padding-left: 3px;
-    color: var(--white);
-    font-size: .6rem;
     background: linear-gradient(180deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
     padding: 3px;
+}
+.blog-title a{
+    color: var(--white);
+    font-size: .6rem;
+
+
 }
 
 .image-container .background-image{
@@ -516,7 +519,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
     height: auto;
     padding: 10px;
 }
