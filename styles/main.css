@@ -71,6 +71,9 @@
     margin-left: 5px;
 
 }
+.phone-btn{
+    display: none;
+}
 
 /* header section ends here */
 
@@ -436,15 +439,27 @@
     margin-bottom: 0;
     background-color: var(--light-blue);
     border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
+}
+.button:active{
+    background-color: var(--secondary-color);
+}
+.input-container .send i{
+    background: none;
+    color: var(--white);
 }
 .input-container .send{
     background: none;
     color: var(--white);
     font-size: 9px;
     text-transform: uppercase;
+    text-align: center;
 
 }
+
 
 /* Contact section ends */
 
