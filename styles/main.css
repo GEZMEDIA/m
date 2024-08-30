@@ -74,6 +74,9 @@
 .phone-btn{
     display: none;
 }
+.phone-btn a{
+    color: var(--white);
+}
 
 /* header section ends here */
 

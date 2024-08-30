@@ -3,8 +3,11 @@
         overflow: hidden;
     }
     .header-section{
-        position: relative;
+        position: fixed;
         height: 38px;
+        left: 0;
+        right: 0;
+
     }
     .nav{
        
@@ -13,12 +16,11 @@
         top: 55px;
         right: -100%;
         background: var(--white);
-        height: 50dvh;
+        height: 100dvh;
         width: 50%;
         box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.3);  
         justify-content: center;
         text-align: center;
-        padding-top: 20px;
     }
     .btn{
         padding: 7px 15px;
@@ -53,7 +55,7 @@
         display: none;
     }
     .hero-section{
-        margin-top: 20px;
+        margin-top: 40px;
         display: flex;
         flex-wrap: wrap-reverse;
         gap: 5px;
