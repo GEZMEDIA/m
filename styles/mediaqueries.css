@@ -157,8 +157,8 @@
 
     }
     .card{
-        width: 140px;
-        height: 160px;
+        width: 150px;
+        height: 170px;
     }
     .card-title{
         font-size: .8rem;
@@ -169,7 +169,7 @@
         line-height: 1.1;
     }
     .card-container{
-        gap: 15px;
+        gap: 25px;
         line-height: 1.1;
     }
     .contact-details-section,
