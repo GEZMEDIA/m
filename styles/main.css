@@ -15,7 +15,7 @@
 }
 .menu button{
     background: none;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 
 }
 
@@ -171,7 +171,7 @@
     }
 
     .title{
-        font-size: .8rem;
+        font-size: 1.2rem;
     }
     .title em{
         font-weight: 700;
@@ -294,7 +294,7 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 15px;
 
 }
 
@@ -541,7 +541,7 @@
     padding: 10px;
 }
 .footer-section h1{
-    font-size: .7rem;
+    font-size: .8rem;
     font-weight: 600;
     color: var(--white);
     margin-bottom: 3px;
@@ -555,9 +555,7 @@
 /* Footer section ENds */
 
 /* Services section starts */
-.service-section{
-    margin: 60px 0;
-}
+
 .card-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
@@ -576,7 +574,7 @@
     background: var(--light-blue);
     border-radius: 10px;
     height: 130px;
-    width: 130px;
+    width: 140px;
     color: white;
     text-align: center;
 }
