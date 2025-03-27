@@ -16,7 +16,6 @@
 .menu button{
     background: none;
     font-size: 1.3rem;
-
 }
 
 .logo{
@@ -591,3 +590,26 @@
 }
 
 /* Services section ends */
+
+
+/* article section starts here */
+.article-section{
+    margin-top: 6.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.article-section h4, h1, h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.article-section p{
+    line-height: 1.5rem;
+}
+
+.article-section h1{
+    font-size: 2rem;
+}
+/* article section ends here */
