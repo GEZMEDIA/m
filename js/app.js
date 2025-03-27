@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 scr.reveal('.hero-title', {delay:200, origin:'bottom'});
 scr.reveal('.left-section', {delay:100, origin:'bottom'});
 scr.reveal('.hero-section', {delay:80, origin:'bottom'});
-scr.reveal('.animate', {delay:100, origin:'bottom'});
+// scr.reveal('.animate', {delay:100, origin:'bottom'});
 
 // about section
 // scr.reveal('.image-container', {delay:200, origin:'bottom'});
@@ -71,7 +71,7 @@ scr.reveal('.animate', {delay:100, origin:'bottom'});
 // Planning section
 
 // scr.reveal('.planning-section', {delay:100, origin:'bottom'});
-scr.reveal('.title', {delay:100, origin:'bottom'});
+// scr.reveal('.title', {delay:100, origin:'bottom'});
 // scr.reveal('.planning-container', {delay:100, origin:'bottom'});
 
 // contact section
@@ -84,5 +84,5 @@ scr.reveal('.title', {delay:100, origin:'bottom'});
 
 // Services section
 // scr.reveal('.service-section', {delay:100, origin:'bottom'});
-scr.reveal('.we-do', {delay:100, origin:'bottom'});
+// scr.reveal('.we-do', {delay:100, origin:'bottom'});
 // scr.reveal('.card', {delay:100, origin:'bottom'});
