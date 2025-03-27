@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 })
 
 // Hero section
-scr.reveal('.hero-title', {delay:200, origin:'bottom'});
+// scr.reveal('.hero-title', {delay:200, origin:'bottom'});
 scr.reveal('.left-section', {delay:100, origin:'bottom'});
 scr.reveal('.hero-section', {delay:80, origin:'bottom'});
 // scr.reveal('.animate', {delay:100, origin:'bottom'});
