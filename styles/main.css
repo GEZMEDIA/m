@@ -228,17 +228,17 @@
         line-height: 1.2;
     }
 
-    .review-container{
-        height: 20%;
+    .about-right-section .review-container{
         margin: .8rem 0;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: flex-start;
+        width: 100%;
     }
 
-    .review-container img{
-        height: 120px;
-        background: transparent;
+    .about-right-section .review-container img{
+        height: 45%;
+        margin-right: 40px;
     }
 
 /* About section ends here */
@@ -611,5 +611,19 @@
 
 .article-section h1{
     font-size: 2rem;
+}
+
+.writer-container .span{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    justify-content: space-between;
+    width: 125px;
+    cursor: pointer;
+}
+
+.writer-container .span img{
+    height: 45px;
+    border-radius: 25%;
 }
 /* article section ends here */
